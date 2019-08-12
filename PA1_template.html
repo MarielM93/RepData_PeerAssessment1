@@ -452,7 +452,7 @@ hist(stepsperdaynew[[&quot;TotalSteps&quot;]],
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
-<p>For this part, I would have to group the data set to two groups: weekdays and weekends. I had to make use of <code>lubridate</code> to convert the dates into days. I grouped the data using the following code:</p>
+<p>For this part, I would have to group the data set to two groups: <em>weekdays</em> and <em>weekends</em>. I had to make use of <code>lubridate</code> to convert the dates into days. I grouped the data using the following code:</p>
 <pre class="r"><code>library(lubridate)
 completewday &lt;- completeactdata %&gt;%
   mutate(Day = wday(date),

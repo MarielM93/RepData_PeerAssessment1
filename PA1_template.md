@@ -189,8 +189,8 @@ become equivalent to the mean number of steps per day or at least close to it.
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
-For this part, I would have to group the data set to two groups: weekdays and weekends.
-I had to make use of `lubridate` to convert the dates into days.
+For this part, I would have to group the data set to two groups: *weekdays* and 
+*weekends*. I had to make use of `lubridate` to convert the dates into days.
 I grouped the data using the following code:
 
 
